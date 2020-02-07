@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework.authtoken',
+    'Login',
 ]
 
 SITE_ID = 1
@@ -97,7 +98,7 @@ DATABASES = {
         'NAME': 'dbaws',
         'USER': 'postgres',
         'PASSWORD': 'admin123',
-        'HOST': 'database-1.ckbzvg2sh4ly.us-east-1.rds.amazonaws.com',
+        'HOST': 'cliente.cmn3wbkmjuk8.us-east-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
