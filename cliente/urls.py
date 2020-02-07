@@ -34,5 +34,5 @@ router.register(r'users', UserViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    re_path(r'^'/admin,include(router.urls)),
+    re_path(r'^',include(router.urls)),
 ]
