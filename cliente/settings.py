@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'Login',
+    'Profile',
 ]
 
 SITE_ID = 1
